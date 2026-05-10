@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juri Aldayel | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Juri Aldayel</h1>
+            <p>Computer Science Student at <strong>Shaqra University</strong></p>
+            <p class="role-text">Frontend Developer & UI/UX Designer</p>
+            
+            <div class="contact">
+                <a href="mailto:Juri.Aldayel@Gmail.com" class="contact-item">Juri.Aldayel@Gmail.com</a>
+                <a href="https://www.linkedin.com/in/juri-aldayel-644893294" target="_blank" class="contact-item">LinkedIn</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Experience & Volunteering</h2>
+            <div class="card">
+                <div class="item-header">
+                    <strong>Google Developer Student Club (GDSC)</strong>
+                    <span>Member</span>
+                </div>
+                <p>Member of the Quality & Development Team and the Design Team. Gained experience in technical committee organization and collaborative project management.</p>
+            </div>
+            <div class="card">
+                <div class="item-header">
+                    <strong>International Programmer's Day</strong>
+                    <span>Organizer</span>
+                </div>
+                <p>Organized various technical activities and workshops at Shaqra University to engage students in programming concepts.</p>
+            </div>
+            <div class="card">
+                <div class="item-header">
+                    <strong>Apple Developer Academy</strong>
+                    <span>Educational Visit</span>
+                </div>
+                <p>Participated in an educational visit to explore iOS development environments and the fundamentals of UI/UX design.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Hackathons</h2>
+            <div class="card">
+                <div class="item-header">
+                    <strong>Qadiati+ (قضيتي +)</strong>
+                    <span>Finalist</span>
+                </div>
+                <p>A legal-tech project developed for the Board of Grievances, utilizing AI to streamline judicial procedures and analyze legal documentation.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="card">
+                <strong>Solar Panel Monitoring System</strong>
+                <p>An IoT-based system designed to monitor solar energy data and system efficiency through real-time sensors.</p>
+            </div>
+            <div class="card">
+                <strong>Sharek (شارك) | Sustainability Hub</strong>
+                <p>A platform dedicated to school supply recycling, featuring a structured database for inventory and user management.</p>
+            </div>
+            <div class="card">
+                <strong>Saudi Airlines Database System</strong>
+                <p>Designed a comprehensive database schema to manage flight schedules, passenger records, and booking details.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <div class="grid-style">
+                <div class="item-box">HTML Essentials | Cisco Academy</div>
+                <div class="item-box">AI Bootcamp | GDSC Shaqra</div>
+                <div class="item-box">Smart Robotics Bootcamp | KSU</div>
+                <div class="item-box">AI Fundamentals | IBM SkillsBuild</div>
+                <div class="item-box">Foundational AI | KSU & SDAIA</div>
+                <div class="item-box">AI for Citizens | MCIT</div>
+                <div class="item-box">Fundamentals of AI | SDAIA</div>
+                <div class="item-box">SQL Database Foundations | Oracle</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="grid-style">
+                <div class="item-box" onclick="toggleTech()" style="cursor:pointer;">
+                    <strong>Technical Skills</strong> (Click to view)
+                    <ul id="tech-list" style="display:none; margin-top:10px;">
+                        <li>HTML, CSS & Bootstrap</li>
+                        <li>UI/UX Design (Figma)</li>
+                        <li>SQL & Database Design</li>
+                        <li>Python Programming</li>
+                    </ul>
+                </div>
+                <div class="item-box" onclick="toggleSoft()" style="cursor:pointer;">
+                    <strong>Soft Skills</strong> (Click to view)
+                    <ul id="soft-list" style="display:none; margin-top:10px;">
+                        <li>Problem Solving & Logic</li>
+                        <li>Team Leadership</li>
+                        <li>Quality Assurance</li>
+                        <li>Strategic Planning</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Languages</h2>
+            <div class="grid-style">
+                <div class="item-box">Arabic - Native</div>
+                <div class="item-box">English - Advanced</div>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        function toggleTech() {
+            var list = document.getElementById('tech-list');
+            list.style.display = (list.style.display === "none") ? "block" : "none";
+        }
+        function toggleSoft() {
+            var list = document.getElementById('soft-list');
+            list.style.display = (list.style.display === "none") ? "block" : "none";
+        }
+    </script>
+</body>
+</html>
