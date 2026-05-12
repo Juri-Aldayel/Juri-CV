@@ -1,6 +1,6 @@
 body {
-    background-color: #1a2639; /* أزرق رمادي أفتح شوي وأهدأ */
-    color: #e6e6e6; /* أبيض مطفي عشان ما يبين "فلاش" */
+    background-color: #1a2639;
+    color: #e6e6e6; 
     font-family: 'Segoe UI', Tahoma, sans-serif;
     margin: 0;
     padding: 20px;
@@ -11,13 +11,13 @@ body {
     margin: auto;
     background-color: rgba(255, 255, 255, 0.05);
     padding: 30px;
-    border: 1px solid rgba(100, 149, 237, 0.3); /* حدود زرقاء ناعمة */
+    border: 1px solid rgba(100, 149, 237, 0.3); 
     border-radius: 10px;
 }
 
 header {
     text-align: center;
-    border-bottom: 2px solid #6495ed; /* أزرق كلاسيكي هادئ */
+    border-bottom: 2px solid #6495ed; 
     padding-bottom: 25px;
     margin-bottom: 35px;
 }
